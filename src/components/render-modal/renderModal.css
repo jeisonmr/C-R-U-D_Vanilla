@@ -1,0 +1,52 @@
+.modalView{
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgb(0,0,0, 0.2);
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .formUsers{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 300px;
+    /* margin: 0 auto; */
+    /* margin-top: 100px; */
+    color: white;
+    background-color: rgb(48, 48, 48);
+    font-family: fantasy;
+
+    input{
+      padding: 0.5rem;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+
+    label{
+      font-weight: lighter;
+      font-size: 2rem;
+    }
+
+    button{
+      padding: 0.5rem;
+      border: 1px solid black;
+      border-radius: 5px;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+  }
+}
+
+.hiddenModal{
+  display: none;
+}

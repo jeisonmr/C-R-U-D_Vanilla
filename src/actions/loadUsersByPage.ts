@@ -10,5 +10,4 @@ export const loadUsersByPage = async(page: number = 1): Promise<any> => {
   const data = await res.json();
   const users: User[] = data.map((user:User) => backendToFrontend(user));    
   return users;
-
 }

@@ -1,9 +1,6 @@
-import './style.css'
-import { RenderTable } from './components/render-table/RenderTable.ts'
-import { RenderButtons } from './components/render-buttons/RenderButons.ts';
+import { userApp } from './components/user-app';
+import './style.css';
 
 export const app = document.querySelector<HTMLDivElement>('#app');
-RenderTable(app);
-RenderButtons(app);
 
-
+userApp(app);
